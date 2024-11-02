@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg{
+    color: white;
+    background:blue  url(bg.jpg);
+    background-blend-mode:darken;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    opacity: 90%;
+    margin: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.bg h2{
+    padding-top: 10px;
+    font-size: 27px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg p{
+    padding-top: 10px;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+.forms{
+    margin-left: 33%;
+    text-align: justify;
+    background-color:rgb(37, 31, 69);
+    opacity: 80%;
+    width: 430px;
+    height: 1000px;
+    margin-top: 30px;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.forms p{
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+
+.users input{
+    height: 30px;
+    width: 350px;
+
+}
+
+
+select{
+    height: 30px;
+    width: 350px;
+    margin-left: 40px;
+
+}
+
+textarea{
+    width: 350px;
+    margin-left: 40px;
+}
+
+input{
+    margin-left: 40px; 
+}
+
+
+
+button{
+    margin-left: 40px;
+    padding: 1px;
+    background-color: rgb(74, 235, 20);
+    height: 30px;
+    width: 350px;
+    border: none;
+    margin-top: 20px;
+    color: white;
 }
